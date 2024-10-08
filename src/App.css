@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+div.member {
+  border-radius: 10px;
+  background-color: gainsboro;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
+
+p.nickname {
+  font-size: 30px;
+}
+p {
+  font-weight: 900;
+}
+
+img.member {
+  border-radius: 50%;
+  width: 100px;
+}
+
+div.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: lightgray;
+  margin: 30px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
